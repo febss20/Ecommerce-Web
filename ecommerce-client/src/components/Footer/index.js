@@ -19,7 +19,7 @@ const Footer = () => {
 
                     <div className="col d-flex align-items-center">
                         <span><TbTruckDelivery/></span>
-                        <span className="ml-2">Pengiriman gratis lebih dari 1jt</span>
+                        <span className="ml-2">Free ongkir pesanan lebih dari 1jt</span>
                     </div>
 
                     <div className="col d-flex align-items-center">
