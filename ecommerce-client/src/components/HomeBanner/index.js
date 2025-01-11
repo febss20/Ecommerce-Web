@@ -8,13 +8,14 @@ import { Autoplay, Navigation } from 'swiper/modules';
 const HomeBanner = () => {
 
     return (
-        <section className="homeBannerSection">
+        <div className="container mt-3">
+            <section className="homeBannerSection">
             <Swiper
                     slidesPerView={1}
-                    spaceBetween={0}
+                    spaceBetween={15}
                     navigation={true}
                     slidesPerGroup={1}
-                    loop={true}
+                    loop={false}
                     autoplay={true}
                     modules={[Autoplay, Navigation]}
                     className="mySwiper3"
@@ -50,6 +51,7 @@ const HomeBanner = () => {
                 </SwiperSlide>
             </Swiper>
         </section>
+        </div>
     )
 }
 
