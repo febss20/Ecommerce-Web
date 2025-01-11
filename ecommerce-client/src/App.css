@@ -139,7 +139,9 @@ nav .navPart2 ul li .submenu a button:hover{background: #f1f1f1 !important;}
 
 nav .navPart2 ul li:hover .submenu{opacity: 1; visibility: inherit; top: 100%;}
 
-.homeBannerSection{position: relative; overflow: hidden;}
+.homeBannerSection{position: relative;}
+.homeBannerSection .swiper{overflow: inherit !important;}
+.homeBannerSection .swiper .item{overflow: hidden; border-radius: 10px;}
 .homeBannerSection *{outline: none !important;}
 
 .homeBannerSection{cursor: pointer;}
