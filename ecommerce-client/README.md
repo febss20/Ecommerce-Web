@@ -17,8 +17,8 @@ npm -v
 ### Installation
 Clone the repository and install the dependencies:
 ```bash
-git clone <https://github.com/febss20/Ecommerce-Web.git>
-cd <project-directory>
+git clone https://github.com/febss20/Ecommerce-Web.git
+cd ecommerce-client
 npm install
 ```
 
